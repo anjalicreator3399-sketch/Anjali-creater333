@@ -24,7 +24,6 @@ Here are the technologies I work with daily:
 ---
 
 ### 📊 My GitHub Stats
-*()*
 
 ![Anjali's GitHub Stats](https://github-readme-stats.vercel.app/api?username=anjalicreator3399-sketch&show_icons=true&theme=radical)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anjalicreator3399-sketch&layout=compact&theme=radical)
