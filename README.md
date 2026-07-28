@@ -3,7 +3,7 @@
 # 👩‍💻 Hi, I am Anjali!
 
 ### 👤 About Me:
-I am an aspiring **Frontend Web Developer** with a strong foundation in building clean and responsive web structures. I like problem solving and logic building. I love the process of turning a blank browser page into a functional layout.
+I am an **Frontend Web Developer** with a strong foundation in building clean and responsive web structures. I like problem solving and logic building. I love the process of turning a blank browser page into a functional layout.
 
 - 🔭 **Current Focus:** Mastered HTML semantics and CSS integration (Inline, Internal, External). Currently deep-diving into **CSS Flexbox and Grid**.
   
