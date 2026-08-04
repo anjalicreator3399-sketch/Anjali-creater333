@@ -249,7 +249,44 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
 }
+/* 1. दोनों डब्बों के बाहर का मेन कंटेनर */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2.1fr; /* दोनों डब्बे आमने-सामने रहेंगे */
+    gap: 30px;                       /* दोनों डब्बों के बीच का गैप */
+    padding: 40px 6% 120px 6%;
+    background-color: transparent;    /* बाहर का बैकग्राउंड हटा दिया ताकि डब्बे अलग दिखें */
+}
 
+/* 2. About Me का अलग डब्बा */
+.about-panel {
+    background-color: #ffffff;        /* शुद्ध सफेद बैकग्राउंड */
+    padding: 30px;                    /* डब्बे के अंदर का स्पेस */
+    border-radius: 16px;              /* कोनों का सुंदर घुमाव */
+    border: 1px solid #e2e8f0;        /* हल्की और साफ बॉर्डर */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* डब्बे को उभारने के लिए हल्की परछाई */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* 3. Projects का अलग डब्बा */
+.projects-panel {
+    background-color: #ffffff;        /* शुद्ध सफेद बैकग्राउंड */
+    padding: 30px;                    /* डब्बे के अंदर का स्पेस */
+    border-radius: 16px;              /* कोनों का सुंदर घुमाव */
+    border: 1px solid #e2e8f0;        /* हल्की और साफ बॉर्डर */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* डब्बे को उभारने के लिए हल्की परछाई */
+}
+
+/* 4. प्रोजेक्ट्स के अंदर वाले छोटे कार्ड्स का बैकग्राउंड
+.project-box {
+    background-color: #f8fafc;        /* मुख्य डब्बे से अलग दिखाने के लिए हल्का ग्रे-ब्लू टिंट */
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 16px;
+    }*/
+    
 .project-box {
     background-color: #eff6ff;
     border: 1px solid #dbeafe;
@@ -281,24 +318,12 @@ body {
     color: #64748b;
     line-height: 1.5;
 }
-
-/* Solid Flat Clean White Footer */
-/*.site-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 35px 6%;
-    background-color: #ffffff;
-    border-top: 1px solid #f1f5f9;
-}*/
 .site-footer {
-    position: fixed;        /* यह फुटर को स्क्रीन के अलाइनमेंट के हिसाब से फिक्स कर देगा */
-    bottom: 0;             /* इसे हमेशा स्क्रीन के सबसे निचले छोर (Bottom) पर चिपका कर रखेगा */
-    left: 0;               /* बाईं तरफ से शुरुआत करने के लिए */
-    width: 100%;           /* नेवबार की तरह पूरी चौड़ाई (Full Width) घेरने के लिए */
-    z-index: 999;          /* ताकि यह कंटेंट के ऊपर साफ दिखाई दे और नीचे न दबे */
-    
-    /* बाकी का डिजाइन स्टाइल */
+    position: fixed;    
+    bottom: 0;     
+    left: 0;          
+    width: 100%;     
+    z-index: 999;   
     display: flex;
     justify-content: space-between;
     align-items: center;
