@@ -283,15 +283,31 @@ body {
 }
 
 /* Solid Flat Clean White Footer */
-.site-footer {
+/*.site-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 35px 6%;
     background-color: #ffffff;
     border-top: 1px solid #f1f5f9;
-}
-
+}*/
+.site-footer {
+    position: fixed;        /* यह फुटर को स्क्रीन के अलाइनमेंट के हिसाब से फिक्स कर देगा */
+    bottom: 0;             /* इसे हमेशा स्क्रीन के सबसे निचले छोर (Bottom) पर चिपका कर रखेगा */
+    left: 0;               /* बाईं तरफ से शुरुआत करने के लिए */
+    width: 100%;           /* नेवबार की तरह पूरी चौड़ाई (Full Width) घेरने के लिए */
+    z-index: 999;          /* ताकि यह कंटेंट के ऊपर साफ दिखाई दे और नीचे न दबे */
+    
+    /* बाकी का डिजाइन स्टाइल */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 6%;
+    background-color: #ffffff; /* शुद्ध सफेद पट्टी */
+    border-top: 1px solid #e2e8f0;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.05); /* ऊपर की तरफ हल्की परछाई */
+    }
+    
 .footer-contact {
     font-size: 16px;
     font-weight: 600;
