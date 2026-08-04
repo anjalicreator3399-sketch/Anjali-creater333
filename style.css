@@ -10,7 +10,8 @@ body {
     background-color: #ffffff;
     color: #1e293b;
     min-width: 1250px;
-    overflow-x: auto;
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 /* Navbar Layer */
