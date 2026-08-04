@@ -1,0 +1,306 @@
+/* Clean High-Fidelity Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1e293b;
+    min-width: 1250px;
+    overflow-x: auto;
+}
+
+/* Navbar Layer */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 6%;
+    background-color: #e0f2fe;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #475569;
+    margin: 0 16px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+}
+
+/* Precise Button Shapes */
+.btn {
+    padding: 10px 22px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-download {
+    background-color: #3b82f6;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    color: #2563eb;
+    border: 1px solid #cbd5e1;
+}
+
+/* 3-Column Linear Hero Canvas */
+.hero-section {
+    background: linear-gradient(180deg, #e0f2fe 0%, #bae6fd 100%);
+    padding: 60px 6% 140px 6%;
+    position: relative;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 1.6fr;
+    align-items: center;
+    gap: 40px;
+}
+
+.hero-text h1 {
+    font-size: 42px;
+    line-height: 1.15;
+    color: #0f172a;
+    font-weight: 400;
+}
+
+.hero-text .bold-name {
+    font-weight: 800;
+    font-size: 54px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #475569;
+    margin: 15px 0 25px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+/* Center Logo Ribbon Styling */
+.hero-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-a-logo {
+    width: 140px;
+    height: 140px;
+}
+
+/* Horizontal Soft-Glass Skills Grid Dashboard */
+.skills-dashboard {
+    background: rgba(255, 255, 255, 0.45);
+    border-radius: 16px;
+    padding: 24px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.dashboard-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 18px;
+    letter-spacing: 0.5px;
+}
+
+.skills-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.skill-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.01);
+}
+
+.c-card { background-color: #ffedd5; }
+.python-card { background-color: #f0fdf4; }
+.css-card { background-color: #f0f9ff; }
+
+.skill-card i {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.c-card i { color: #ea580c; }
+.python-card i { color: #16a34a; }
+.css-card i { color: #2563eb; }
+
+.skill-name {
+    font-size: 12.5px;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 14px;
+}
+
+.dots-indicator {
+    display: flex;
+    gap: 4px;
+}
+
+.dots-indicator .dot {
+    width: 15px;
+    height: 4px;
+    background-color: #cbd5e1;
+    border-radius: 2px;
+}
+
+.dots-indicator .dot.active {
+    background-color: #3b82f6;
+}
+
+/* Wave Divider Geometry */
+.wave-divider {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-divider svg {
+    display: block;
+    width: 100%;
+    height: 75px;
+}
+
+/* Split Mid Container (About panel left, Projects row right) */
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2.1fr;
+    gap: 60px;
+    padding: 60px 6%;
+}
+
+.section-title {
+    font-size: 24px;
+    color: #0f172a;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.about-panel .about-text {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #475569;
+}
+
+.about-illustration {
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+    color: #94a3b8;
+    font-size: 48px;
+}
+
+.question-mark {
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #64748b;
+}
+
+/* Horizontal Row for Project Cards */
+.projects-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.project-box {
+    background-color: #eff6ff;
+    border: 1px solid #dbeafe;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+.project-thumb {
+    background-color: #3b82f6;
+    height: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 26px;
+    margin-bottom: 14px;
+}
+
+.project-name {
+    font-size: 14px;
+    color: #0f172a;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.project-desc {
+    font-size: 12px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+/* Solid Flat Clean White Footer */
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 6%;
+    background-color: #ffffff;
+    border-top: 1px solid #f1f5f9;
+}
+
+.footer-contact {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.footer-contact i {
+    margin-right: 8px;
+}
+
+.footer-socials a {
+    color: #0f172a;
+    font-size: 22px;
+    margin-left: 20px;
+  }
