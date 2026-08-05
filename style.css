@@ -188,9 +188,9 @@ body {
     margin-bottom: 10px;
 }
 
-.c-card i { color: #ea580c; }
-.python-card i { color: #16a34a; }
-.css-card i { color: #2563eb; }
+.c-card i { color: #FCDDC7; }
+.python-card i { color: #DCEEFA; }
+.css-card i { color: #DCEEFA; }
 
 .skill-name {
     font-size: 12.5px;
@@ -306,7 +306,7 @@ body {
 }
 /* 4. प्रोजेक्ट्स के अंदर वाले छोटे कार्ड्स का बैकग्राउंड */
 .project-box {
-    background-color: #f8fafc;        /* मुख्य डब्बे से अलग दिखाने के लिए हल्का ग्रे-ब्लू टिंट */
+    background-color: #CBE2F4;        /* मुख्य डब्बे से अलग दिखाने के लिए हल्का ग्रे-ब्लू टिंट */
     border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 16px;
