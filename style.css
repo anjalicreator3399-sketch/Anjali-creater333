@@ -143,10 +143,10 @@ body {
 }
 
 .dashboard-title {
-    font-size: 13px;
-    font-weight: 700;
+    font-size: 18px;
+    font-weight: 800;
     color: #0f172a;
-    margin-bottom: 18px;
+    margin-bottom: 20px;
     letter-spacing: 0.5px;
 }
 
