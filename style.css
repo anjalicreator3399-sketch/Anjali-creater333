@@ -19,7 +19,7 @@ body {
 /* Navbar Layer */
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 22px 6%;
     background-color: #e0f2fe;
