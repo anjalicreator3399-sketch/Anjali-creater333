@@ -150,7 +150,7 @@ body {
     letter-spacing: 0.5px;
 }
 
-.skills-row {
+/*.skills-row {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 14px;
@@ -165,7 +165,19 @@ body {
     align-items: center;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,0.01);
-}
+}*/
+/* 2. डब्बा बड़ा होने पर अंदर के तीनों कार्ड्स को भी बड़ा और व्यवस्थित रखने के लिए */
+.skills-row .skill-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 24px 16px; /* कार्ड्स की ऊंचाई और चौड़ाई बढ़ाने के लिए पैडिंग बढ़ाई गई है */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 150px;  /* कार्ड्स को एक शानदार बड़ी हाइट देने के लिए */
+    justify-content: space-between; /* आइकॉन, नाम और डॉट्स के बीच बराबर स्पेस रखेगा */
+    }
 
 .c-card { background-color: #ffedd5; }
 .python-card { background-color: #f0fdf4; }
