@@ -306,7 +306,7 @@ body {
 }
 /* 4. प्रोजेक्ट्स के अंदर वाले छोटे कार्ड्स का बैकग्राउंड */
 .project-box {
-    background-color: #87C6F5;        /* मुख्य डब्बे से अलग दिखाने के लिए हल्का ग्रे-ब्लू टिंट */
+    background-color: #38BDF8;      
     border: 1px solid #e2e8f0;
     border-radius: 12px;
     padding: 16px;
