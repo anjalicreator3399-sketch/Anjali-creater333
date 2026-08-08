@@ -131,7 +131,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.6);
 }*/
 .skills-dashboard {
-    background: rgba(255, 255, 255, 0.45);
+    background: #E0F2FE;
     border-radius: 16px;
     padding: 30px 24px; /* पैडिंग बढ़ाई गई है ताकि अंदर स्पेस मिले */
     backdrop-filter: blur(10px);
